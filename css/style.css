@@ -1,0 +1,78 @@
+body {
+    font-family: Arial;
+    font-size: 120%;
+  }
+  
+  a {
+    color: #2b89d6;
+    text-decoration: none;
+    transition: color 0.1s;
+  }
+  
+  a:hover {
+    color: #d62b7b;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color: #d62b7b;
+    border-radius: 10px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+  
+  button:hover {
+    background-color: #2b89d6;
+  }
+  
+  .choices button {
+    display: block;
+  }
+  
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
+  
+  .quizholder {
+    margin-top: 300px;
+    text-align: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: rgb(90, 124, 161);
+    border-top: 2px solid #000000;
+  }
+  
+  .timer {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+  }
+  
