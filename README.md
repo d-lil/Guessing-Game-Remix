@@ -26,7 +26,9 @@
 
   ## Usage:
   Visit the link below to interact with the quiz:
-  >
+  >https://d-lil.github.io/Guessing-Game-Remix/
+
+  --- 
 
   ![Home](./assets/qhome.png)
   ```md
