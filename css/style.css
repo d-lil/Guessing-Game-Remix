@@ -1,6 +1,12 @@
-body {
+  body {
     font-family: Arial;
     font-size: 120%;
+  }
+
+  .timer {
+    position: absolute;
+    top: -10px;
+    right: 5px;
   }
   
   a {
@@ -30,10 +36,33 @@ body {
     background-color: #2b89d6;
   }
   
+  .quizholder {
+    margin-top: 300px;
+    text-align: center;
+  }
+
+  .choices {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+  }
+
   .choices button {
     display: block;
   }
+
+  .hide {
+    display: none;
+  }
   
+  .feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: rgb(209, 125, 181);
+    border-top: 2px solid #000000;
+  }
   
   ol {
     padding-left: 0px;
@@ -46,33 +75,12 @@ body {
     list-style: decimal inside none;
   }
   
-  .quizholder {
-    margin-top: 300px;
-    text-align: center;
-  }
-  
-  .hide {
-    display: none;
-  }
-  
   .scores {
     position: absolute;
     top: 10px;
     left: 10px;
   }
+
   
-  .feedback {
-    font-style: italic;
-    font-size: 120%;
-    margin-top: 20px;
-    padding-top: 10px;
-    color: rgb(90, 124, 161);
-    border-top: 2px solid #000000;
-  }
-  
-  .timer {
-    position: absolute;
-    top: -10px;
-    right: 5px;
-  }
+
   
